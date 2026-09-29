@@ -35,7 +35,7 @@ The project aims to:
 	7	Creates lists of items viewed by each user
 ## Output
 The script prints:
-	•	Dataset sizes before and after filtering
-	•	Number of nodes and edges in each graph
-	•	Top 5 most viewed items
-	•	Number of user item lists and one example
+- Dataset sizes before and after filtering
+- Number of nodes and edges in each graph
+- Top 5 most viewed items
+- Number of user item lists and one example
