@@ -1,15 +1,27 @@
 # Detecting Hidden Bias in Recommendation graphs using pagerank and itemsets
 
 ## Overview
-This script analyzes user viewing behavior to build:
-	•	A User–Item graph showing which users viewed which items
-	•	An Item–Item graph showing items that are frequently viewed together
-It also identifies the top 5 most viewed items and creates user-level item lists.
+This project analyzes user viewing behavior to construct recommendation graphs and identify potential bias in recommendation systems.
+## Dataset Source
+This project uses the RetailRocket E-commerce Dataset, a real-world e-commerce interaction dataset containing user behavior, item metadata, and category information.
+Dataset URL: https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset
 ## Data Files
 The script expects the following CSV files in the same directory:
 	•	events.csv – user interactions (must include visitorid, itemid, event)
 	•	item_properties.csv – item metadata
 	•	category_tree.csv – category relationships
+Required columns in events.csv:
+visitorid
+itemid
+event
+## Objectives
+The project aims to:
+ 
+- Analyze user viewing behavior.
+- Build graph-based representations of user-item interactions.
+- Identify highly popular items that may introduce recommendation bias.
+- Explore item co-view relationships.
+- Create a foundation for future recommendation and bias-detection research.
 ## Requirements
 	•	Python 3
 	•	Libraries: pip install pandas networkx
